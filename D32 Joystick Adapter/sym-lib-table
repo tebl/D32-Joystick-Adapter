@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name sega_joypad)(type Legacy)(uri ${KIPRJMOD}/../common/library/sega_joypad.lib)(options "")(descr ""))
+  (lib (name d32_joystick)(type Legacy)(uri ${KIPRJMOD}/../common/library/d32_joystick.lib)(options "")(descr ""))
+)
