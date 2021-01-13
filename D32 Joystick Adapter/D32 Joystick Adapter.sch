@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Dragon 32 Digital Joystick Adapter"
 Date ""
-Rev ""
+Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Allows the use of Atari-style joysticks on the Dragon 32 computer."
 $EndDescr
 $Comp
 L power:VCC #PWR05
@@ -46,7 +46,7 @@ U 1 1 5FD32F7C
 P 800 6875
 F 0 "C1" H 685 6921 50  0000 R CNN
 F 1 "100nF" H 685 6830 50  0000 R CNN
-F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 838 6725 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 838 6725 50  0001 C CNN
 F 3 "~" H 800 6875 50  0001 C CNN
 	1    800  6875
 	-1   0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 5FFF69E1
 P 4925 4700
 F 0 "U1" H 4925 4527 50  0000 C CNN
 F 1 "4066" H 4925 4436 50  0000 C CNN
-F 2 "" H 4925 4700 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4925 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 4925 4700 50  0001 C CNN
 	1    4925 4700
 	1    0    0    -1  
@@ -118,7 +118,7 @@ U 2 1 5FFF8056
 P 4925 5450
 F 0 "U1" H 4925 5277 50  0000 C CNN
 F 1 "4066" H 4925 5186 50  0000 C CNN
-F 2 "" H 4925 5450 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4925 5450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 4925 5450 50  0001 C CNN
 	2    4925 5450
 	1    0    0    -1  
@@ -129,7 +129,7 @@ U 3 1 5FFF8594
 P 7150 5450
 F 0 "U1" H 7150 5277 50  0000 C CNN
 F 1 "4066" H 7150 5186 50  0000 C CNN
-F 2 "" H 7150 5450 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7150 5450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 7150 5450 50  0001 C CNN
 	3    7150 5450
 	1    0    0    -1  
@@ -140,7 +140,7 @@ U 4 1 5FFF8FAA
 P 7150 4700
 F 0 "U1" H 7150 4527 50  0000 C CNN
 F 1 "4066" H 7150 4436 50  0000 C CNN
-F 2 "" H 7150 4700 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7150 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 7150 4700 50  0001 C CNN
 	4    7150 4700
 	1    0    0    -1  
@@ -151,7 +151,7 @@ U 5 1 5FFF9957
 P 1400 6875
 F 0 "U1" H 1630 6921 50  0000 L CNN
 F 1 "4066" H 1630 6830 50  0000 L CNN
-F 2 "" H 1400 6875 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 1400 6875 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 1400 6875 50  0001 C CNN
 	5    1400 6875
 	1    0    0    -1  
@@ -162,7 +162,7 @@ U 1 1 60006D36
 P 6675 1925
 F 0 "J1" H 6675 1350 50  0000 C CNN
 F 1 "Dragon 32" H 6675 1425 50  0000 C CNN
-F 2 "" H 6675 1925 50  0001 C CNN
+F 2 "D32_Wirepads:OUTPUT_ZIP" H 6675 1925 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 6675 1925 50  0001 C CNN
 	1    6675 1925
 	-1   0    0    1   
@@ -173,7 +173,7 @@ U 1 1 60008599
 P 4550 4150
 F 0 "R2" H 4492 4104 50  0000 R CNN
 F 1 "100k" H 4492 4195 50  0000 R CNN
-F 2 "" H 4550 4150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4550 4150 50  0001 C CNN
 F 3 "~" H 4550 4150 50  0001 C CNN
 	1    4550 4150
 	1    0    0    1   
@@ -215,7 +215,7 @@ U 1 1 600116FD
 P 4175 4150
 F 0 "R1" H 4117 4104 50  0000 R CNN
 F 1 "100k" H 4117 4195 50  0000 R CNN
-F 2 "" H 4175 4150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4175 4150 50  0001 C CNN
 F 3 "~" H 4175 4150 50  0001 C CNN
 	1    4175 4150
 	1    0    0    1   
@@ -243,7 +243,7 @@ U 1 1 6001664A
 P 4925 4150
 F 0 "R3" H 4867 4104 50  0000 R CNN
 F 1 "100k" H 4867 4195 50  0000 R CNN
-F 2 "" H 4925 4150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4925 4150 50  0001 C CNN
 F 3 "~" H 4925 4150 50  0001 C CNN
 	1    4925 4150
 	1    0    0    1   
@@ -274,7 +274,7 @@ U 1 1 60027A1C
 P 4550 5625
 F 0 "R4" H 4492 5579 50  0000 R CNN
 F 1 "100k" H 4492 5670 50  0000 R CNN
-F 2 "" H 4550 5625 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4550 5625 50  0001 C CNN
 F 3 "~" H 4550 5625 50  0001 C CNN
 	1    4550 5625
 	1    0    0    1   
@@ -300,7 +300,7 @@ U 1 1 60030AD4
 P 6775 4150
 F 0 "R6" H 6717 4104 50  0000 R CNN
 F 1 "100k" H 6717 4195 50  0000 R CNN
-F 2 "" H 6775 4150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6775 4150 50  0001 C CNN
 F 3 "~" H 6775 4150 50  0001 C CNN
 	1    6775 4150
 	1    0    0    1   
@@ -330,7 +330,7 @@ U 1 1 60030AE7
 P 6400 4150
 F 0 "R5" H 6342 4104 50  0000 R CNN
 F 1 "100k" H 6342 4195 50  0000 R CNN
-F 2 "" H 6400 4150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6400 4150 50  0001 C CNN
 F 3 "~" H 6400 4150 50  0001 C CNN
 	1    6400 4150
 	1    0    0    1   
@@ -358,7 +358,7 @@ U 1 1 60030AF7
 P 7150 4150
 F 0 "R7" H 7092 4104 50  0000 R CNN
 F 1 "100k" H 7092 4195 50  0000 R CNN
-F 2 "" H 7150 4150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7150 4150 50  0001 C CNN
 F 3 "~" H 7150 4150 50  0001 C CNN
 	1    7150 4150
 	1    0    0    1   
@@ -389,7 +389,7 @@ U 1 1 60030B08
 P 6775 5625
 F 0 "R8" H 6717 5579 50  0000 R CNN
 F 1 "100k" H 6717 5670 50  0000 R CNN
-F 2 "" H 6775 5625 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6775 5625 50  0001 C CNN
 F 3 "~" H 6775 5625 50  0001 C CNN
 	1    6775 5625
 	1    0    0    1   
@@ -483,4 +483,48 @@ Wire Wire Line
 	6675 1550 6675 1625
 Text Notes 6225 2550 0    60   ~ 0
 (back of plug view)
+$Comp
+L mounting:Mounting M4
+U 1 1 6008691F
+P 11150 550
+F 0 "M4" H 11150 650 50  0001 C CNN
+F 1 "Mounting" H 11150 475 50  0001 C CNN
+F 2 "mounting:M3_pin" H 11150 550 50  0001 C CNN
+F 3 "~" H 11150 550 50  0001 C CNN
+	1    11150 550 
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting:Mounting M3
+U 1 1 600878AD
+P 11025 550
+F 0 "M3" H 11025 650 50  0001 C CNN
+F 1 "Mounting" H 11025 475 50  0001 C CNN
+F 2 "mounting:M3_pin" H 11025 550 50  0001 C CNN
+F 3 "~" H 11025 550 50  0001 C CNN
+	1    11025 550 
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting:Mounting M2
+U 1 1 60087CC9
+P 10900 550
+F 0 "M2" H 10900 650 50  0001 C CNN
+F 1 "Mounting" H 10900 475 50  0001 C CNN
+F 2 "mounting:M3_pin" H 10900 550 50  0001 C CNN
+F 3 "~" H 10900 550 50  0001 C CNN
+	1    10900 550 
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting:Mounting M1
+U 1 1 60088123
+P 10775 550
+F 0 "M1" H 10775 650 50  0001 C CNN
+F 1 "Mounting" H 10775 475 50  0001 C CNN
+F 2 "mounting:M3_pin" H 10775 550 50  0001 C CNN
+F 3 "~" H 10775 550 50  0001 C CNN
+	1    10775 550 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
