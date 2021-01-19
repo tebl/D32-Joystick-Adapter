@@ -12,5 +12,5 @@
 # Autorouter files (exported from Pcbnew)
 .dsn
 
+*.zip
 resources/
-export/MSX Mega Adapter.zip
