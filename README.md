@@ -69,3 +69,7 @@ Here's the next part: RUN
 The script should flicker the screen a lot, but between the flickering you should see some numbers for the X- and Y-axis. It should display a number between 0 and 63, when pushing the joystick in all the ways it should jump between the extremes. When not pushing anything it should center somewhere along the middle (around 30).
 
 I found that my [C64 JoyKEY](https://github.com/tebl/C64-JoyKEY) with an Arduino installed pulls the VCC-line too far down (my max value didn't go above 40) so it didn't work properly unless the VCC_EN jumper is removed, the Dragon 32 simply wasn't meant to power an Arduino and a bunch of LEDs via the joystick port - most common Atari-style joysticks with a sensible amount of circuitry should work properly.
+
+Now go play some games, I recommend starting with either *Rommel's Revenge* or *Donkey King* - both worked pretty great for the 5 minutes I spent playing them. That's a pretty good statistic, I just prefer building things these days!
+
+![Donkey King](https://github.com/tebl/D32-Joystick-Adapter/raw/main/gallery/2021-01-22%2021.07.37.jpg)
