@@ -5,6 +5,12 @@ I don't have a joystick for any of my Dragon 32s, I actually have two of them - 
 
 What I don't have however, is a working joystick for any of them. I can't buy one, mainly because according to someone very close to me - I appearantly have enough stuff! So I need to make some more - *all* by myself - *all by myself* (cue the music). Actually, I just searched around for a solution and with the power of Googles search engine at my fingertips - I copied the one from [vrai.net](http://vrai.net/retro/?p=112) and designed a PCB around it. I'm rambling again, but for those tuning in - this project is about making an adapter so standard Atari 9-pin joysticks can be used on the Dragon 32/64 computers. In theory it should work for the TRS-80 Colour Computer (CoCo), but I don't have one - so until someone gives me one, I can't test it.
 
+- [1> BOM](#1-bom)
+  - [1.1>D32 Joystick Adapter](#11-d32-joystick-adapter)
+  - [1.2> D32 Joystick Adapter (Faceplate)](#12-d32-joystick-adapter-faceplate)
+- [2> Building the D32 Joystick Adapter](#2-building-the-d32-joystick-adapter)
+  - [2.1> Testing it out](#21-testing-it-out)
+
 # 1> BOM
 This is the list of parts that you'd need in order to construct a D32 Joystick Adapter, most if not all should be readily available from your friendly neighbourhood electronics store if you should happen to have one available to you. For me, that means ebay since those kind of stores disappeared in the 80s around here - your mileage may wary (and so may the actual friendliness).
 
