@@ -1,9 +1,13 @@
 # D32 Joystick Adapter
-I don't have a joystick for any of my Dragon 32s, I actually have two of them - mostly because it's the little welsh machine that thought it could - then it actually did! Often mentioned as a copy of the more successful american, but from what I can see - both of them seem to be a rather straight-forward implementation of a Motorola reference design from the same period. Where I live the computer didn't see much success until after its actual demise, the reason being that they became available at a very low price of *a freaking lot of money* (I was very young at a time, so anything that wasn't coins was a lot to me).
+I don't have a joystick for any of my Dragon 32s, I actually have two of them - mostly because it's the little welsh machine that thought it could - then it actually did! Often mentioned as a copy of the more successful american, but from what I can see - both of them seem to be a rather straight-forward implementation of a Motorola reference design from the same period. Where I live the computer didn't see much success until after its actual demise, the reason being that they became available at a very low price of *a freaking lot of money* (I was very young at a time, so anything that wasn't, well, a small stack of coins was still a lot to me).
 
 ![Dragon 32](https://github.com/tebl/D32-Joystick-Adapter/raw/main/gallery/system.jpg)
 
-What I don't have however, is a working joystick for any of them. I can't buy one, mainly because according to someone very close to me - I appearantly have enough stuff! So I need to make some more - *all* by myself - *all by myself* (cue the music). Actually, I just searched around for a solution and with the power of Googles search engine at my fingertips - I copied the one from [vrai.net](http://vrai.net/retro/?p=112) and designed a PCB around it. I'm rambling again, but for those tuning in - this project is about making an adapter so standard Atari 9-pin joysticks can be used on the Dragon 32/64 computers. In theory it should work for the TRS-80 Colour Computer (CoCo), but I don't have one - so until someone gives me one, I can't test it.
+What I don't have however, is a working joystick for any of them. I can't buy one, mainly because according to someone very close to me - I appearantly have enough stuff! So I need to make some more - *all* by myself - *all by myself* (cue the music). Actually, I just searched around for a solution and with the power of Googles search engine at my fingertips - I copied the one from [vrai.net](http://vrai.net/retro/?p=112) and designed a PCB around it.
+
+![D32 Joystick Adapter](https://github.com/tebl/D32-Joystick-Adapter/raw/main/gallery/adapter.jpg)
+
+Anyway - I'm rambling again, but for those just tuning into the workings of my basement laboratory - this project is about making an adapter so standard Atari 9-pin joysticks can be used with the Dragon 32 (also sold as the Tano Dragon in America) and Dragon 64 computers. In theory it could work for the TRS-80 Colour Computer (CoCo), but I don't have one - so until the day someone just gives me one, I can't test it. The finished project, including an optional faceplate can be seen above.
 
 - [1> BOM](#1-bom)
   - [1.1>D32 Joystick Adapter](#11-d32-joystick-adapter)
@@ -17,28 +21,26 @@ This is the list of parts that you'd need in order to construct a D32 Joystick A
 I've separated the parts belonging to the actual module into section 1.1, the faceplate is strictly optional and has no active components - I'm just having fun making these, so unless you want one you don't really need the components listed.
 
 ## 1.1> D32 Joystick Adapter
-| Reference                 | Item                                  | Count |
-| ------------------------- | ------------------------------------- | ----- |
-| D32 Joystick Adapter PCB  | Fabricate using Gerber files          |     1 |
-| J1 *                      | Male 240° connector and 5-core wire   |     1 |
-| J2                        | Male DB9 right-angle connector        |     1 |
-| JP1 **                    | 1x2 pin right-angle header and jumper |     1 |
-| R1,R3,R5,R7               | 10k Ohm resistor                      |     4 |
-| R2,R4,R6,R8               | 47k Ohm resistor                      |     4 |
-| U1                        | CD4066 (DIP-14)                       |     1 |
+| Reference                 | Item                                  | Count | Order  |
+| ------------------------- | ------------------------------------- | ----- | ------ |
+| D32 Joystick Adapter PCB  | Fabricate using Gerber files          |     1 | [PCBWay](https://www.pcbway.com/project/shareproject/D32_Joystick_Adapter.html) |
+| J1 *                      | Male 240° connector and 5-core wire   |     1 |        |
+| J2                        | Male DB9 right-angle connector        |     1 |        |
+| JP1 **                    | 1x2 pin right-angle header and jumper |     1 |        |
+| R1,R3,R5,R7               | 10k Ohm resistor                      |     4 |        |
+| R2,R4,R6,R8               | 47k Ohm resistor                      |     4 |        |
+| U1                        | CD4066 (DIP-14)                       |     1 |        |
 
 *) Note that this isn't actually a PCB-component, you're supposed to solder the male connector at the other end of the cable. One cheap source of these cables is either purchasing a cheap RS232 cable and cutting off both ends. Use a cable tie as strain relief.
 
 **) This was added so that VCC could be removed from the cable if needed, the *C64 JoyKEY* when including the Arduino drags down the line a bit too much. If you only intend to use regular Atari-style joysticks, feel free to install a piece of wire shorting this instead.
 
 ## 1.2> D32 Joystick Adapter (Faceplate)
-**TBD**
-
-| Reference                 | Item                                  | Count |
-| ------------------------- | ------------------------------------- | ----- |
-| Faceplate (PCB)           | Fabricate using Gerber files          |     1 |
-|                           | M3x8mm Nylon Hex standoff             |     4 |
-|                           | M3x6mm nylon screw                    |     8 |
+| Reference                 | Item                                  | Count | Order  |
+| ------------------------- | ------------------------------------- | ----- | ------ |
+| Faceplate (PCB)           | Fabricate using Gerber files          |     1 | [PCBWay](https://www.pcbway.com/project/shareproject/D32_Joystick_Adapter__Faceplate_.html) |
+|                           | M3x8mm Nylon Hex standoff             |     4 |        |
+|                           | M3x6mm nylon screw                    |     4 |        |
 
 The suggested nylon standoff should be common values, if you have one of the cheap M3 nylon standoff kits sold on ebay and similar site - feel free to try out whichever works best for you. Keeping within the limits of the kit I'd use the 8mm standoffs, use screws on top and nuts on the underside (cut off the remainder of the screw poking through).
 
@@ -57,7 +59,9 @@ Note that the pins on the PCB has been numbered for you, the connector will also
 
 ![Build 003](https://github.com/tebl/D32-Joystick-Adapter/raw/main/gallery/build_003.jpg)
 
-It is my hope that everything'll work out as it should, but before you connect it up to a Dragon 32 I highly recommend that you check for any direct shorts on the power side of things - this is easily done by checking for a lack of contiuity between U1 pins 7 and 14. If you opted for a faceplate, just screw it on.
+It is my hope that everything'll work out as it should, but before you connect it up to a Dragon 32 I highly recommend that you check for any direct shorts on the power side of things - this is easily done by checking for a lack of contiuity between U1 pins 7 and 14. If you opted for a faceplate, just screw it on using the standoffs listed in the BOM.
+
+![Build 004](https://github.com/tebl/D32-Joystick-Adapter/raw/main/gallery/build_004.jpg)
 
 That should be every bit of knowledge I'm able to impart on you this evening, excuse the mistakes and exceptionally bad puns!
 
