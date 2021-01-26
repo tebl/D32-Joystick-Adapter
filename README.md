@@ -38,11 +38,14 @@ I've separated the parts belonging to the actual module into section 1.1, the fa
 ## 1.2> D32 Joystick Adapter (Faceplate)
 | Reference                 | Item                                  | Count | Order  |
 | ------------------------- | ------------------------------------- | ----- | ------ |
-| Faceplate (PCB)           | Fabricate using Gerber files          |     1 | [PCBWay](https://www.pcbway.com/project/shareproject/D32_Joystick_Adapter__Faceplate_.html) |
-|                           | M3x8mm Nylon Hex standoff             |     4 |        |
+| Faceplate A1 (PCB) *      | Fabricate using Gerber files          |     1 | [PCBWay](https://www.pcbway.com/project/shareproject/D32_Joystick_Adapter__Faceplate_.html) |
+| Faceplate A2 (PCB) *      | Fabricate using Gerber files          |     1 | [PCBWay](https://www.pcbway.com/project/shareproject/D32_Joystick_Adapter__Faceplate_A2_.html) |
+| Mounting **               | M3x8mm Nylon Hex standoff             |     4 |        |
 |                           | M3x6mm nylon screw                    |     4 |        |
 
-The suggested nylon standoff should be common values, if you have one of the cheap M3 nylon standoff kits sold on ebay and similar site - feel free to try out whichever works best for you. Keeping within the limits of the kit I'd use the 8mm standoffs, use screws on top and nuts on the underside (cut off the remainder of the screw poking through).
+*) The A1 and A2 faceplates serve the same function, so you will only need one of them. The A1 faceplate is the Dragon-themed one, A2 has something that should have a larger appeal to our American friends with access to a RadioShack TRS-80 Colour Computer.
+
+**) The suggested nylon standoff should be common values, if you have one of the cheap M3 nylon standoff kits sold on ebay and similar site - feel free to try out whichever works best for you. Keeping within the limits of the kit I'd use the 8mm standoffs, use screws on top and nuts on the underside (cut off the remainder of the screw poking through).
 
 # 2> Building the D32 Joystick Adapter
 Building the *D32 Joystick Adapter* should for the most part be an easy affair for most with access to a decent set of tools, burn-proof fingers and a deep-seeded interest in playing games on a Dragon 32 using an Atari-style joystick. Start by reading through the BOM above for a list of all parts required, order what you don't already have tucked into a drawer, chest or the back of the sofa cushions - wherever you keep yours. Everything? Read on for the exciting conclusion to project *"clicky joy with the Dragon 32"*.
